@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+
+  <schema id="org.gnome.shell.extensions.panelnote" path="/org/gnome/shell/extensions/panelnote/">
+
+    <!-- See also: https://developer.gnome.org/glib/stable/gvariant-format-strings.html -->
+
+    <key type="s" name="note">
+      <default>"Change my Panel Note!"</default>
+      <summary>The note that is showing on the panel.</summary>
+    </key>
+  </schema>
+</schemalist>
