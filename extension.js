@@ -64,7 +64,7 @@ const Indicator = GObject.registerClass(
             });
 
             let popupEdit = new PopupMenu.PopupMenuSection();
-            popupEdit.actor.add_actor(this.entry);
+            popupEdit.actor.add_child(this.entry);
 
             this.menu.addMenuItem(popupEdit);
             this.menu.actor.add_style_class_name('note-entry');
